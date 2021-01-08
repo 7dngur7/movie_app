@@ -27,7 +27,8 @@ class App extends React.Component {
        year={movie.year}
         title ={movie.title}
          summary={movie.summary}
-          poster={movie.midium_cover_image} />
+          poster={movie.midium_cover_image} 
+          genres={movie.genres} />
     })}</div>
   }
 }
